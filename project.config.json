@@ -1,0 +1,62 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.3",
+	"appid": "wxe033e6ec29346604",
+	"projectname": "ffh",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "editUserInfo",
+					"pathName": "pages/my/editUserInfo/editUserInfo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "applyDistribution",
+					"pathName": "pages/my/applyDistribution/applyDistribution",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "distributionCenter",
+					"pathName": "pages/my/distributionCenter/distributionCenter"
+				}
+			]
+		}
+	}
+}
