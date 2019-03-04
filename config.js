@@ -15,14 +15,14 @@ const version = 1.0
 
 // development and production host
 const hosts = {
-    development: '',
+    development: 'https://dev-shiyanshi.ecojing.com',
     production: ''
 }
 
 
 
 const config = {
-    appid: 'wxe033e6ec29346604', //测试
+    appid: 'wxc497f8ebc087c7e7', //测试
     env,
     version,
     host: hosts[env],

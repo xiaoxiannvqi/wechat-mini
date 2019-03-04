@@ -1,2 +1,4 @@
 <!--pages/index/index.wxml-->
-<text>pages/index/index.wxml</text>
+<view class="swiper">
+    <component-swiper img-urls="{{banner}}"></component-swiper>
+</view>

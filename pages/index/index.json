@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "component-swiper": "../../components/carousel_figure/carousel_figure"
+  },
   "navigationBarTitleText": "首页"
 }

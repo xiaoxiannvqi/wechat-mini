@@ -7,7 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    banner: []
   },
 
   /**
@@ -15,12 +15,13 @@ Page({
    */
   onLoad: function (options) {
     // 请求
-    // api.test.testList({
-    //   data:{'传参': '123'}
-    // }).then(resp => {
-    //   //resp = 返回值
-    //   console.log(resp)
-    // })
+    api.banner.bannerList().then(resp => {
+      //resp = 返回值
+      console.log(resp.data)
+      this.setData({
+        banner: resp.data
+      })
+    })
   },
 
   /**

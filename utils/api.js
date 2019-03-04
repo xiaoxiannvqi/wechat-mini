@@ -40,8 +40,8 @@ const wraptool = (url, type = 'GET') => (config = {}) => req.request(Object.assi
 }))
 
 const api = {
-  test: {
-    testList: wrap('接口地址', '请求方式'),
+  banner: {
+    bannerList: wrap('/shop/home/get_banner_list'),
   },
   
 }
