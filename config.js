@@ -27,6 +27,7 @@ const config = {
     version,
     host: hosts[env],
     pageSize: 10,
+    baseColor: '#ff6a74',
     storage: {
         sessionKey: 'token',
         userKey: 'user'

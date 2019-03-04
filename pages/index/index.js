@@ -1,5 +1,5 @@
 // pages/index/index.js
-const api = require('../../util/api');
+const api = require('../../utils/api');
 
 Page({
 
@@ -15,12 +15,12 @@ Page({
    */
   onLoad: function (options) {
     // 请求
-    api.test.testList({
-      data:{'传参': '123'}
-    }).then(resp => {
-      //resp = 返回值
-      console.log(resp)
-    })
+    // api.test.testList({
+    //   data:{'传参': '123'}
+    // }).then(resp => {
+    //   //resp = 返回值
+    //   console.log(resp)
+    // })
   },
 
   /**
