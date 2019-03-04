@@ -1,4 +1,6 @@
 // pages/index/index.js
+const api = require('../../util/api');
+
 Page({
 
   /**
@@ -12,7 +14,13 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    // 请求
+    api.test.testList({
+      data:{'传参': '123'}
+    }).then(resp => {
+      //resp = 返回值
+      console.log(resp)
+    })
   },
 
   /**
